@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # variables
-RESOURCE_GROUP='200700-golang-actions-functions'
+RESOURCE_GROUP='200700-golang-actions-functions-lets-go'
 LOCATION='eastus'
 SUBSCRIPTION_ID=$(az account show | jq -r .id)
 SCOPE="/subscriptions/${SUBSCRIPTION_ID}/resourceGroups/${RESOURCE_GROUP}"
